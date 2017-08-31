@@ -1,0 +1,20 @@
+Test Case     Possible Inputs	    	Expected Outputs	        		Reason
+
+1.	      SClubb@207		(Valid)						- Requirements Met
+
+
+2.	      gMan			(Invalid) -- no special character		- Did not include special character
+						  -- no number				- No numbers included
+						  -- too short				- Length of login must be at least 5				
+										
+						  				
+3.	      DELETE_SYSTEM32	         (Invalid)-- no lowercase letter		- Lower case letter not included
+						  -- invalid special character		- Wrong special character used : !@#$
+	
+
+4. 	      867-5309			 (Invalid)-- no lowercase letter		- Lowercase letter not included
+						  -- no Uppercase letter		- Uppercase letter not included
+						  -- invalid special character		- Wrong special characters used:!@#$
+	
+5. 	      Harambe2016!		 (Valid)					-   Requirements Met
+
